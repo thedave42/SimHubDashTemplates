@@ -219,7 +219,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "dc4aa7e0-6415-49f1-a633-a044153809f2",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "Border",
               "Sid": 0,
               "Bindings": {
@@ -778,7 +778,7 @@
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
               "RepeatTopOffset": 30.0,
-              "Height": 347.0,
+              "Height": 287.0,
               "Width": 800.0,
               "BackgroundColor": "#00FFFFFF",
               "BlurRadius": 0.0,
@@ -3109,7 +3109,7 @@
               "EnableBlur": false,
               "Left": 0.0,
               "Opacity": 100.0,
-              "Top": 10.0,
+              "Top": 70.0,
               "Visible": true,
               "BlinkDelay": 250.0,
               "BlinkEnabled": false,
@@ -3119,7 +3119,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "0af2ceb6-99e7-4ef8-90f8-cb29f7b21314",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "Page1",
               "Sid": 0,
               "Bindings": {
@@ -3133,7 +3133,7 @@
               "RepeatLeftOffset": 0.0,
               "RepeatTopOffset": 30.0,
               "Height": 107.0,
-              "Width": 80.0,
+              "Width": 560.0,
               "BackgroundColor": "#00FFFFFF",
               "BlurRadius": 0.0,
               "Rotation": 0.0,
@@ -4399,7 +4399,7 @@
               "Group": false,
               "UseRotation": false,
               "EnableBlur": false,
-              "Left": 360.0,
+              "Left": 120.0,
               "Opacity": 100.0,
               "Top": 371.0,
               "Visible": true,
@@ -4917,18 +4917,17 @@
   "Metadata": {
     "$id": "400",
     "Title": "Dallara P217 iRacing",
-    "ScreenCount": 3.0,
+    "ScreenCount": 2.0,
     "InGameScreensIndexs": {
       "$id": "401",
       "$values": [
-        0,
-        1
+        0
       ]
     },
     "IdleScreensIndexs": {
       "$id": "402",
       "$values": [
-        2
+        1
       ]
     },
     "MainPreviewIndex": 0,

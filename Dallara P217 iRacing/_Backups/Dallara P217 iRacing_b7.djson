@@ -808,7 +808,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": false,
+              "ShowSelection": true,
               "CanResize": false,
               "Childrens": {
                 "$id": "79",
@@ -3113,7 +3113,7 @@
                   }
                 ]
               },
-              "Group": false,
+              "Group": true,
               "UseRotation": false,
               "EnableBlur": false,
               "Left": 0.0,
@@ -3171,7 +3171,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": false,
+              "ShowSelection": true,
               "CanResize": false,
               "Childrens": {
                 "$id": "261",
@@ -5068,7 +5068,7 @@
                   }
                 ]
               },
-              "Group": false,
+              "Group": true,
               "UseRotation": false,
               "EnableBlur": false,
               "Left": 0.0,
@@ -5083,7 +5083,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "3f5bf840-2cfb-49ec-9cf2-3e9c113b6dd9",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "PitLimiter",
               "Sid": 0,
               "Bindings": {
@@ -5126,7 +5126,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": false,
+              "ShowSelection": true,
               "CanResize": false,
               "Childrens": {
                 "$id": "413",
@@ -6369,7 +6369,7 @@
                   }
                 ]
               },
-              "Group": false,
+              "Group": true,
               "UseRotation": false,
               "EnableBlur": false,
               "Left": 120.0,
@@ -6384,7 +6384,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "2756022f-2db3-4a4a-946c-2e6345b0cbd0",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "Footer",
               "Sid": 0,
               "Bindings": {

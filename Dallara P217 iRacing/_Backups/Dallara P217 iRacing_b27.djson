@@ -1,7 +1,7 @@
 {
   "$id": "1",
   "Version": 2,
-  "Id": "3e496fcc-b0d0-4c70-9481-4f24a6f74c15",
+  "Id": "3b6c9f9f-f94a-491b-a827-bd112c0740fc",
   "BaseHeight": 480,
   "BaseWidth": 800,
   "BackgroundColor": "#FF000000",
@@ -20,7 +20,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": false,
+        "IsSelected": true,
         "Items": {
           "$id": "5",
           "$values": [
@@ -253,7 +253,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": true,
+              "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
                 "$id": "26",
@@ -298,7 +298,7 @@
                     "BorderTop": 4,
                     "Id": "b5391755-789f-444e-af0e-afe7a1966db9",
                     "IsFreezed": false,
-                    "IsSelected": false,
+                    "IsSelected": true,
                     "Name": "border",
                     "RenderingSkip": 0,
                     "Sid": 0,
@@ -308,7 +308,7 @@
                         "$id": "31",
                         "Formula": {
                           "$id": "32",
-                          "Expression": "[CarSettings_RPMRedLineReached]"
+                          "Expression": "if([Gear] != [CarSettings_MaxGears],[CarSettings_RPMRedLineReached], 0)\r\n"
                         },
                         "StartColor": "#00FFFFFF",
                         "EnableMiddleColor": false,
@@ -4461,7 +4461,7 @@
                     "BorderRight": 0,
                     "BorderTop": 0,
                     "Id": "efce8813-046f-4323-883f-e385839d1153",
-                    "IsSelected": true,
+                    "IsSelected": false,
                     "Name": "Pit_speed",
                     "Sid": 0,
                     "Bindings": {
@@ -4522,7 +4522,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": true,
+        "IsSelected": false,
         "Items": {
           "$id": "367",
           "$values": []
@@ -4541,7 +4541,7 @@
   "ShowBoundingRectangles": false,
   "GridSize": 10,
   "SelectedScreen": {
-    "$ref": "365"
+    "$ref": "3"
   },
   "Images": {
     "$id": "369",

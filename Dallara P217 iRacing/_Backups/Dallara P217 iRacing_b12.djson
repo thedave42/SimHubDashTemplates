@@ -765,7 +765,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "552b7c04-d4a0-4b69-ac52-7be33a3db641",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "RPM_Gear",
               "Sid": 0,
               "Bindings": {
@@ -4913,7 +4913,7 @@
                       }
                     },
                     "RenderingSkip": 0,
-                    "ShowSelection": false,
+                    "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
                       "$id": "395",
@@ -5025,7 +5025,7 @@
                           "BorderTop": 0,
                           "Id": "574f8e47-e2c3-418c-9fda-53bd287bfdb0",
                           "IsFreezed": false,
-                          "IsSelected": true,
+                          "IsSelected": false,
                           "Name": "label",
                           "RenderingSkip": 0,
                           "Sid": 0,

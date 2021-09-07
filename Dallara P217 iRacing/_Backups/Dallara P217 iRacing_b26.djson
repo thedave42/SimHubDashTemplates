@@ -1,7 +1,7 @@
 {
   "$id": "1",
   "Version": 2,
-  "Id": "3b6c9f9f-f94a-491b-a827-bd112c0740fc",
+  "Id": "07ea2b6b-800b-455f-8606-2aeddc14ca93",
   "BaseHeight": 480,
   "BaseWidth": 800,
   "BackgroundColor": "#FF000000",
@@ -253,7 +253,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": false,
+              "ShowSelection": true,
               "CanResize": false,
               "Childrens": {
                 "$id": "26",
@@ -298,7 +298,7 @@
                     "BorderTop": 4,
                     "Id": "b5391755-789f-444e-af0e-afe7a1966db9",
                     "IsFreezed": false,
-                    "IsSelected": true,
+                    "IsSelected": false,
                     "Name": "border",
                     "RenderingSkip": 0,
                     "Sid": 0,
@@ -4461,7 +4461,7 @@
                     "BorderRight": 0,
                     "BorderTop": 0,
                     "Id": "efce8813-046f-4323-883f-e385839d1153",
-                    "IsSelected": false,
+                    "IsSelected": true,
                     "Name": "Pit_speed",
                     "Sid": 0,
                     "Bindings": {
@@ -4470,7 +4470,7 @@
                         "$id": "361",
                         "Formula": {
                           "$id": "362",
-                          "Expression": "[IsInPitLane] = 1"
+                          "Expression": "[IsInPitLane] = 1 || [PitLimiterOn] = 1\r\n"
                         },
                         "Mode": 2,
                         "TargetPropertyName": "Visible"

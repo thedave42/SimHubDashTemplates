@@ -1,7 +1,7 @@
 {
   "$id": "1",
   "Version": 2,
-  "Id": "7612f6ba-b8f9-429a-9163-46f6840ef7ac",
+  "Id": "3e496fcc-b0d0-4c70-9481-4f24a6f74c15",
   "BaseHeight": 480,
   "BaseWidth": 800,
   "BackgroundColor": "#FF000000",
@@ -20,7 +20,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": true,
+        "IsSelected": false,
         "Items": {
           "$id": "5",
           "$values": [
@@ -308,7 +308,7 @@
                         "$id": "31",
                         "Formula": {
                           "$id": "32",
-                          "Expression": "if([Gear] != [CarSettings_MaxGears],[CarSettings_RPMRedLineReached], 0)\r\n"
+                          "Expression": "[CarSettings_RPMRedLineReached]"
                         },
                         "StartColor": "#00FFFFFF",
                         "EnableMiddleColor": false,
@@ -4461,7 +4461,7 @@
                     "BorderRight": 0,
                     "BorderTop": 0,
                     "Id": "efce8813-046f-4323-883f-e385839d1153",
-                    "IsSelected": false,
+                    "IsSelected": true,
                     "Name": "Pit_speed",
                     "Sid": 0,
                     "Bindings": {
@@ -4470,7 +4470,7 @@
                         "$id": "361",
                         "Formula": {
                           "$id": "362",
-                          "Expression": "[IsInPitLane] = 1 || [PitLimiterOn] = 1\r\n"
+                          "Expression": "[IsInPitLane] = 1"
                         },
                         "Mode": 2,
                         "TargetPropertyName": "Visible"
@@ -4500,177 +4500,6 @@
               "Bindings": {
                 "$id": "363"
               }
-            },
-            {
-              "$id": "364",
-              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
-              "Repetitions": 0.0,
-              "RepeatLeftOffset": 0.0,
-              "RepeatTopOffset": 30.0,
-              "Height": 480.0,
-              "Width": 800.0,
-              "BackgroundColor": "#00FFFFFF",
-              "BlurRadius": 0.0,
-              "Rotation": 0.0,
-              "BorderStyle": {
-                "$id": "365",
-                "BorderColor": "#FFFFFFFF",
-                "BorderTop": 0,
-                "BorderBottom": 0,
-                "BorderLeft": 0,
-                "BorderRight": 0,
-                "RadiusTopLeft": 0,
-                "RadiusTopRight": 0,
-                "RadiusBottomLeft": 0,
-                "RadiusBottomRight": 0,
-                "Bindings": {
-                  "$id": "366"
-                }
-              },
-              "RenderingSkip": 0,
-              "ShowSelection": false,
-              "CanResize": false,
-              "Childrens": {
-                "$id": "367",
-                "$values": [
-                  {
-                    "$id": "368",
-                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
-                    "IsRectangleItem": true,
-                    "Rotation": 0.0,
-                    "UseRotation": false,
-                    "CanResize": true,
-                    "BackgroundColor": "#FF000000",
-                    "BlurRadius": 0.0,
-                    "EnableBlur": false,
-                    "BorderStyle": {
-                      "$id": "369",
-                      "BorderColor": "#FFFFFFFF",
-                      "BorderTop": 0,
-                      "BorderBottom": 0,
-                      "BorderLeft": 0,
-                      "BorderRight": 0,
-                      "RadiusTopLeft": 0,
-                      "RadiusTopRight": 0,
-                      "RadiusBottomLeft": 0,
-                      "RadiusBottomRight": 0,
-                      "Bindings": {
-                        "$id": "370"
-                      }
-                    },
-                    "Height": 480.0,
-                    "Left": 0.0,
-                    "Opacity": 100.0,
-                    "Top": 0.0,
-                    "Visible": true,
-                    "BlinkDelay": 250.0,
-                    "BlinkEnabled": false,
-                    "Width": 800.0,
-                    "BorderBottom": 0,
-                    "BorderColor": "#FFFFFFFF",
-                    "BorderLeft": 0,
-                    "BorderRight": 0,
-                    "BorderTop": 0,
-                    "Id": "1e4895c0-1df7-41ba-861f-eec663ddcd83",
-                    "IsFreezed": false,
-                    "IsSelected": true,
-                    "Name": "background",
-                    "RenderingSkip": 0,
-                    "Sid": 0,
-                    "Bindings": {
-                      "$id": "371"
-                    }
-                  },
-                  {
-                    "$id": "372",
-                    "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
-                    "IsTextItem": true,
-                    "ShadowDepth": 0,
-                    "ShadowBlur": 0,
-                    "ShadowDirection": 315,
-                    "ShadowColor": "#FF808080",
-                    "Font": "Droid Sans",
-                    "FontWeight": "Bold",
-                    "TextWrapping": 1,
-                    "FontStyle": "Normal",
-                    "FontSize": 84.0,
-                    "Text": "Engine Off",
-                    "TextColor": "#FFFFFFFF",
-                    "HorizontalAlignment": 1,
-                    "VerticalAlignment": 1,
-                    "UseMonospacedText": false,
-                    "CharWidth": 40.0,
-                    "SpecialCharsWidth": 20.0,
-                    "SpecialChars": ".,:;",
-                    "TextMask": "",
-                    "TextMaskColor": "#FF808080",
-                    "Rotation": 0.0,
-                    "UseRotation": false,
-                    "CanResize": true,
-                    "BackgroundColor": "#00FFFFFF",
-                    "BlurRadius": 0.0,
-                    "EnableBlur": false,
-                    "BorderStyle": {
-                      "$id": "373",
-                      "BorderColor": "#FFFFFFFF",
-                      "BorderTop": 0,
-                      "BorderBottom": 0,
-                      "BorderLeft": 0,
-                      "BorderRight": 0,
-                      "RadiusTopLeft": 0,
-                      "RadiusTopRight": 0,
-                      "RadiusBottomLeft": 0,
-                      "RadiusBottomRight": 0,
-                      "Bindings": {
-                        "$id": "374"
-                      }
-                    },
-                    "Height": 100.0,
-                    "Left": 0.0,
-                    "Opacity": 100.0,
-                    "Top": 190.0,
-                    "Visible": true,
-                    "BlinkDelay": 250.0,
-                    "BlinkEnabled": false,
-                    "Width": 800.0,
-                    "BorderBottom": 0,
-                    "BorderColor": "#FFFFFFFF",
-                    "BorderLeft": 0,
-                    "BorderRight": 0,
-                    "BorderTop": 0,
-                    "Id": "9c13c6d7-fe6e-40e9-8dc0-e5f352654ddd",
-                    "IsFreezed": false,
-                    "IsSelected": false,
-                    "Name": "label",
-                    "RenderingSkip": 0,
-                    "Sid": 0,
-                    "Bindings": {
-                      "$id": "375"
-                    }
-                  }
-                ]
-              },
-              "Group": false,
-              "UseRotation": false,
-              "EnableBlur": false,
-              "Left": 0.0,
-              "Opacity": 100.0,
-              "Top": 0.0,
-              "Visible": true,
-              "BlinkDelay": 250.0,
-              "BlinkEnabled": false,
-              "BorderBottom": 0,
-              "BorderColor": "#FFFFFFFF",
-              "BorderLeft": 0,
-              "BorderRight": 0,
-              "BorderTop": 0,
-              "Id": "b41f36ea-e102-4b8e-a99a-ba9215eeaa27",
-              "IsSelected": false,
-              "Name": "Engine Off",
-              "Sid": 0,
-              "Bindings": {
-                "$id": "376"
-              }
             }
           ]
         },
@@ -4678,31 +4507,31 @@
         "Name": "Dash",
         "Sid": 0,
         "Bindings": {
-          "$id": "377"
+          "$id": "364"
         }
       },
       {
-        "$id": "378",
+        "$id": "365",
         "RenderingSkip": 0,
         "IsFreezed": false,
         "InGameScreen": false,
         "IdleScreen": true,
         "PitScreen": false,
         "ScreenScript": {
-          "$id": "379",
+          "$id": "366",
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": false,
+        "IsSelected": true,
         "Items": {
-          "$id": "380",
+          "$id": "367",
           "$values": []
         },
         "Id": "535aae14-e194-4d7e-a203-5377c429f495",
         "Name": "Idle",
         "Sid": 0,
         "Bindings": {
-          "$id": "381"
+          "$id": "368"
         }
       }
     ]
@@ -4712,13 +4541,13 @@
   "ShowBoundingRectangles": false,
   "GridSize": 10,
   "SelectedScreen": {
-    "$ref": "3"
+    "$ref": "365"
   },
   "Images": {
-    "$id": "382",
+    "$id": "369",
     "$values": [
       {
-        "$id": "383",
+        "$id": "370",
         "Name": "Cosworth",
         "Extension": ".png",
         "Optimized": true,
@@ -4727,17 +4556,17 @@
     ]
   },
   "Metadata": {
-    "$id": "384",
+    "$id": "371",
     "Title": "Dallara P217 iRacing",
     "ScreenCount": 2.0,
     "InGameScreensIndexs": {
-      "$id": "385",
+      "$id": "372",
       "$values": [
         0
       ]
     },
     "IdleScreensIndexs": {
-      "$id": "386",
+      "$id": "373",
       "$values": [
         1
       ]
@@ -4751,7 +4580,7 @@
     "MetadataVersion": 2.0,
     "EnableOnDashboardMessaging": true,
     "PitScreensIndexs": {
-      "$id": "387",
+      "$id": "374",
       "$values": []
     }
   },

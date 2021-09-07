@@ -1,7 +1,7 @@
 {
   "$id": "1",
   "Version": 2,
-  "Id": "5f1d2c88-7358-43cb-99f9-2d879e387449",
+  "Id": "14465d82-c32c-47f2-bace-d356afd849be",
   "BaseHeight": 480,
   "BaseWidth": 800,
   "BackgroundColor": "#FF000000",
@@ -3189,7 +3189,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": false,
+              "ShowSelection": true,
               "CanResize": false,
               "Childrens": {
                 "$id": "265",
@@ -4692,7 +4692,7 @@
                       }
                     },
                     "RenderingSkip": 0,
-                    "ShowSelection": false,
+                    "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
                       "$id": "382",
@@ -4881,7 +4881,7 @@
                           "BorderTop": 0,
                           "Id": "e90dbda6-8977-4f7e-95e1-a29bb01c2ff5",
                           "IsFreezed": false,
-                          "IsSelected": true,
+                          "IsSelected": false,
                           "Name": "label",
                           "RenderingSkip": 0,
                           "Sid": 0,
@@ -5101,7 +5101,7 @@
               "Left": 0.0,
               "Opacity": 100.0,
               "Top": 70.0,
-              "Visible": true,
+              "Visible": false,
               "BlinkDelay": 50.0,
               "BlinkEnabled": false,
               "BorderBottom": 0,
@@ -5110,7 +5110,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "3f5bf840-2cfb-49ec-9cf2-3e9c113b6dd9",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "PitLimiter",
               "Sid": 0,
               "Bindings": {

@@ -4573,7 +4573,7 @@
                     "BorderTop": 0,
                     "Id": "1e4895c0-1df7-41ba-861f-eec663ddcd83",
                     "IsFreezed": false,
-                    "IsSelected": true,
+                    "IsSelected": false,
                     "Name": "background",
                     "RenderingSkip": 0,
                     "Sid": 0,
@@ -4656,7 +4656,7 @@
               "Left": 0.0,
               "Opacity": 100.0,
               "Top": 0.0,
-              "Visible": true,
+              "Visible": false,
               "BlinkDelay": 250.0,
               "BlinkEnabled": false,
               "BorderBottom": 0,
@@ -4665,11 +4665,20 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "b41f36ea-e102-4b8e-a99a-ba9215eeaa27",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "Engine Off",
               "Sid": 0,
               "Bindings": {
-                "$id": "376"
+                "$id": "376",
+                "Visible": {
+                  "$id": "377",
+                  "Formula": {
+                    "$id": "378",
+                    "Expression": "[GameRawData.Telemetry.Voltage] = 0"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
               }
             }
           ]
@@ -4678,31 +4687,31 @@
         "Name": "Dash",
         "Sid": 0,
         "Bindings": {
-          "$id": "377"
+          "$id": "379"
         }
       },
       {
-        "$id": "378",
+        "$id": "380",
         "RenderingSkip": 0,
         "IsFreezed": false,
         "InGameScreen": false,
         "IdleScreen": true,
         "PitScreen": false,
         "ScreenScript": {
-          "$id": "379",
+          "$id": "381",
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
         "IsSelected": false,
         "Items": {
-          "$id": "380",
+          "$id": "382",
           "$values": []
         },
         "Id": "535aae14-e194-4d7e-a203-5377c429f495",
         "Name": "Idle",
         "Sid": 0,
         "Bindings": {
-          "$id": "381"
+          "$id": "383"
         }
       }
     ]
@@ -4715,10 +4724,10 @@
     "$ref": "3"
   },
   "Images": {
-    "$id": "382",
+    "$id": "384",
     "$values": [
       {
-        "$id": "383",
+        "$id": "385",
         "Name": "Cosworth",
         "Extension": ".png",
         "Optimized": true,
@@ -4727,17 +4736,17 @@
     ]
   },
   "Metadata": {
-    "$id": "384",
+    "$id": "386",
     "Title": "Dallara P217 iRacing",
     "ScreenCount": 2.0,
     "InGameScreensIndexs": {
-      "$id": "385",
+      "$id": "387",
       "$values": [
         0
       ]
     },
     "IdleScreensIndexs": {
-      "$id": "386",
+      "$id": "388",
       "$values": [
         1
       ]
@@ -4751,7 +4760,7 @@
     "MetadataVersion": 2.0,
     "EnableOnDashboardMessaging": true,
     "PitScreensIndexs": {
-      "$id": "387",
+      "$id": "389",
       "$values": []
     }
   },

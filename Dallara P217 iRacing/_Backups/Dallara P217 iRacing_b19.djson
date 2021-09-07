@@ -20,7 +20,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": true,
+        "IsSelected": false,
         "Items": {
           "$id": "5",
           "$values": [
@@ -219,7 +219,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "dc4aa7e0-6415-49f1-a633-a044153809f2",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "Border",
               "Sid": 0,
               "Bindings": {
@@ -4726,7 +4726,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": false,
+        "IsSelected": true,
         "Items": {
           "$id": "386",
           "$values": [
@@ -4925,7 +4925,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "dc4aa7e0-6415-49f1-a633-a044153809f2",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "Border",
               "Sid": 0,
               "Bindings": {
@@ -9403,7 +9403,7 @@
   "ShowBoundingRectangles": false,
   "GridSize": 10,
   "SelectedScreen": {
-    "$ref": "3"
+    "$ref": "384"
   },
   "Images": {
     "$id": "761",
@@ -9420,11 +9420,12 @@
   "Metadata": {
     "$id": "763",
     "Title": "Dallara P217 iRacing",
-    "ScreenCount": 2.0,
+    "ScreenCount": 3.0,
     "InGameScreensIndexs": {
       "$id": "764",
       "$values": [
-        0
+        0,
+        2
       ]
     },
     "IdleScreensIndexs": {
