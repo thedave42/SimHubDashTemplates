@@ -527,7 +527,7 @@
                 }
               },
               "RenderingSkip": 0,
-              "ShowSelection": true,
+              "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
                 "$id": "54",
@@ -572,7 +572,7 @@
                     "BorderTop": 4,
                     "Id": "b5391755-789f-444e-af0e-afe7a1966db9",
                     "IsFreezed": false,
-                    "IsSelected": false,
+                    "IsSelected": true,
                     "Name": "border",
                     "RenderingSkip": 0,
                     "Sid": 0,
@@ -765,7 +765,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "552b7c04-d4a0-4b69-ac52-7be33a3db641",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "RPM_Gear",
               "Sid": 0,
               "Bindings": {

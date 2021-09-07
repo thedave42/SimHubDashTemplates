@@ -20,7 +20,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": true,
+        "IsSelected": false,
         "Items": {
           "$id": "5",
           "$values": [
@@ -3137,7 +3137,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "0af2ceb6-99e7-4ef8-90f8-cb29f7b21314",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "Page1",
               "Sid": 0,
               "Bindings": {
@@ -5101,7 +5101,7 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "3f5bf840-2cfb-49ec-9cf2-3e9c113b6dd9",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "PitLimiter",
               "Sid": 0,
               "Bindings": {
@@ -6457,7 +6457,7 @@
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
-        "IsSelected": false,
+        "IsSelected": true,
         "Items": {
           "$id": "523",
           "$values": []
@@ -6476,7 +6476,7 @@
   "ShowBoundingRectangles": false,
   "GridSize": 10,
   "SelectedScreen": {
-    "$ref": "3"
+    "$ref": "521"
   },
   "Images": {
     "$id": "525",

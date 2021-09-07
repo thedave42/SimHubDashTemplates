@@ -765,15 +765,24 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "552b7c04-d4a0-4b69-ac52-7be33a3db641",
-              "IsSelected": true,
+              "IsSelected": false,
               "Name": "RPM_Gear",
               "Sid": 0,
               "Bindings": {
-                "$id": "73"
+                "$id": "73",
+                "Visible": {
+                  "$id": "74",
+                  "Formula": {
+                    "$id": "75",
+                    "Expression": "[GameRawData.Telemetry.Voltage] > 0"
+                  },
+                  "Mode": 2,
+                  "TargetPropertyName": "Visible"
+                }
               }
             },
             {
-              "$id": "74",
+              "$id": "76",
               "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
@@ -784,7 +793,7 @@
               "BlurRadius": 0.0,
               "Rotation": 0.0,
               "BorderStyle": {
-                "$id": "75",
+                "$id": "77",
                 "BorderColor": "#FFFFFFFF",
                 "BorderTop": 0,
                 "BorderBottom": 0,
@@ -795,17 +804,17 @@
                 "RadiusBottomLeft": 0,
                 "RadiusBottomRight": 0,
                 "Bindings": {
-                  "$id": "76"
+                  "$id": "78"
                 }
               },
               "RenderingSkip": 0,
               "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
-                "$id": "77",
+                "$id": "79",
                 "$values": [
                   {
-                    "$id": "78",
+                    "$id": "80",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                     "IsTextItem": true,
                     "ShadowDepth": 0,
@@ -834,7 +843,7 @@
                     "BlurRadius": 0.0,
                     "EnableBlur": false,
                     "BorderStyle": {
-                      "$id": "79",
+                      "$id": "81",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -845,7 +854,7 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "80"
+                        "$id": "82"
                       }
                     },
                     "Height": 41.0,
@@ -868,11 +877,11 @@
                     "RenderingSkip": 0,
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "81"
+                      "$id": "83"
                     }
                   },
                   {
-                    "$id": "82",
+                    "$id": "84",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -883,7 +892,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "83",
+                      "$id": "85",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -894,17 +903,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "84"
+                        "$id": "86"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "85",
+                      "$id": "87",
                       "$values": [
                         {
-                          "$id": "86",
+                          "$id": "88",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -914,7 +923,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "87",
+                            "$id": "89",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 2,
@@ -925,7 +934,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "88"
+                              "$id": "90"
                             }
                           },
                           "Height": 82.0,
@@ -948,11 +957,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "89"
+                            "$id": "91"
                           }
                         },
                         {
-                          "$id": "90",
+                          "$id": "92",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -981,7 +990,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "91",
+                            "$id": "93",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -992,7 +1001,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "92"
+                              "$id": "94"
                             }
                           },
                           "Height": 27.0,
@@ -1015,11 +1024,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "93"
+                            "$id": "95"
                           }
                         },
                         {
-                          "$id": "94",
+                          "$id": "96",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1048,7 +1057,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "95",
+                            "$id": "97",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1059,7 +1068,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "96"
+                              "$id": "98"
                             }
                           },
                           "Height": 55.0,
@@ -1082,12 +1091,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "97",
+                            "$id": "99",
                             "Text": {
-                              "$id": "98",
+                              "$id": "100",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "99",
+                                "$id": "101",
                                 "Expression": "[SpeedLocal]"
                               },
                               "Mode": 2,
@@ -1116,11 +1125,11 @@
                     "Name": "Speed",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "100"
+                      "$id": "102"
                     }
                   },
                   {
-                    "$id": "101",
+                    "$id": "103",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -1131,7 +1140,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "102",
+                      "$id": "104",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -1142,17 +1151,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "103"
+                        "$id": "105"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "104",
+                      "$id": "106",
                       "$values": [
                         {
-                          "$id": "105",
+                          "$id": "107",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -1162,7 +1171,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "106",
+                            "$id": "108",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 2,
@@ -1173,7 +1182,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "107"
+                              "$id": "109"
                             }
                           },
                           "Height": 82.0,
@@ -1196,11 +1205,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "108"
+                            "$id": "110"
                           }
                         },
                         {
-                          "$id": "109",
+                          "$id": "111",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1229,7 +1238,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "110",
+                            "$id": "112",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1240,7 +1249,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "111"
+                              "$id": "113"
                             }
                           },
                           "Height": 27.0,
@@ -1263,11 +1272,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "112"
+                            "$id": "114"
                           }
                         },
                         {
-                          "$id": "113",
+                          "$id": "115",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1296,7 +1305,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "114",
+                            "$id": "116",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1307,7 +1316,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "115"
+                              "$id": "117"
                             }
                           },
                           "Height": 55.0,
@@ -1330,12 +1339,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "116",
+                            "$id": "118",
                             "Text": {
-                              "$id": "117",
+                              "$id": "119",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "118",
+                                "$id": "120",
                                 "Expression": "[Fuel]"
                               },
                               "Mode": 2,
@@ -1364,11 +1373,11 @@
                     "Name": "Live Fuel",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "119"
+                      "$id": "121"
                     }
                   },
                   {
-                    "$id": "120",
+                    "$id": "122",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -1379,7 +1388,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "121",
+                      "$id": "123",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -1390,17 +1399,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "122"
+                        "$id": "124"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "123",
+                      "$id": "125",
                       "$values": [
                         {
-                          "$id": "124",
+                          "$id": "126",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -1410,7 +1419,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "125",
+                            "$id": "127",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 2,
@@ -1421,7 +1430,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "126"
+                              "$id": "128"
                             }
                           },
                           "Height": 82.0,
@@ -1444,11 +1453,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "127"
+                            "$id": "129"
                           }
                         },
                         {
-                          "$id": "128",
+                          "$id": "130",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1477,7 +1486,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "129",
+                            "$id": "131",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1488,7 +1497,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "130"
+                              "$id": "132"
                             }
                           },
                           "Height": 27.0,
@@ -1511,11 +1520,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "131"
+                            "$id": "133"
                           }
                         },
                         {
-                          "$id": "132",
+                          "$id": "134",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1544,7 +1553,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "133",
+                            "$id": "135",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1555,7 +1564,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "134"
+                              "$id": "136"
                             }
                           },
                           "Height": 55.0,
@@ -1578,12 +1587,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "135",
+                            "$id": "137",
                             "Text": {
-                              "$id": "136",
+                              "$id": "138",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "137",
+                                "$id": "139",
                                 "Expression": "[DataCorePlugin.Computed.Fuel_RemainingLaps]"
                               },
                               "Mode": 2,
@@ -1612,11 +1621,11 @@
                     "Name": "Lap_fuel",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "138"
+                      "$id": "140"
                     }
                   },
                   {
-                    "$id": "139",
+                    "$id": "141",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -1627,7 +1636,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "140",
+                      "$id": "142",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -1638,17 +1647,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "141"
+                        "$id": "143"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "142",
+                      "$id": "144",
                       "$values": [
                         {
-                          "$id": "143",
+                          "$id": "145",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -1658,7 +1667,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "144",
+                            "$id": "146",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 2,
@@ -1669,7 +1678,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "145"
+                              "$id": "147"
                             }
                           },
                           "Height": 82.0,
@@ -1692,11 +1701,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "146"
+                            "$id": "148"
                           }
                         },
                         {
-                          "$id": "147",
+                          "$id": "149",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1725,7 +1734,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "148",
+                            "$id": "150",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1736,7 +1745,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "149"
+                              "$id": "151"
                             }
                           },
                           "Height": 27.0,
@@ -1759,11 +1768,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "150"
+                            "$id": "152"
                           }
                         },
                         {
-                          "$id": "151",
+                          "$id": "153",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1792,7 +1801,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "152",
+                            "$id": "154",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1803,7 +1812,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "153"
+                              "$id": "155"
                             }
                           },
                           "Height": 55.0,
@@ -1826,12 +1835,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "154",
+                            "$id": "156",
                             "Text": {
-                              "$id": "155",
+                              "$id": "157",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "156",
+                                "$id": "158",
                                 "Expression": "[PersistantTrackerPlugin.SessionBestLiveDeltaSeconds]"
                               },
                               "Mode": 2,
@@ -1860,11 +1869,11 @@
                     "Name": "Delta",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "157"
+                      "$id": "159"
                     }
                   },
                   {
-                    "$id": "158",
+                    "$id": "160",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -1875,7 +1884,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "159",
+                      "$id": "161",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -1886,17 +1895,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "160"
+                        "$id": "162"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "161",
+                      "$id": "163",
                       "$values": [
                         {
-                          "$id": "162",
+                          "$id": "164",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -1906,7 +1915,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "163",
+                            "$id": "165",
                             "BorderColor": "#FF808080",
                             "BorderTop": 2,
                             "BorderBottom": 2,
@@ -1917,7 +1926,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "164"
+                              "$id": "166"
                             }
                           },
                           "Height": 82.0,
@@ -1940,11 +1949,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "165"
+                            "$id": "167"
                           }
                         },
                         {
-                          "$id": "166",
+                          "$id": "168",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -1973,7 +1982,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "167",
+                            "$id": "169",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -1984,7 +1993,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "168"
+                              "$id": "170"
                             }
                           },
                           "Height": 27.0,
@@ -2007,11 +2016,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "169"
+                            "$id": "171"
                           }
                         },
                         {
-                          "$id": "170",
+                          "$id": "172",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2040,7 +2049,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "171",
+                            "$id": "173",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2051,7 +2060,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "172"
+                              "$id": "174"
                             }
                           },
                           "Height": 55.0,
@@ -2074,11 +2083,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "173",
+                            "$id": "175",
                             "Text": {
-                              "$id": "174",
+                              "$id": "176",
                               "Formula": {
-                                "$id": "175",
+                                "$id": "177",
                                 "Expression": "[BrakeBias]"
                               },
                               "Mode": 2,
@@ -2107,11 +2116,11 @@
                     "Name": "Brake Balance",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "176"
+                      "$id": "178"
                     }
                   },
                   {
-                    "$id": "177",
+                    "$id": "179",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -2122,7 +2131,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "178",
+                      "$id": "180",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -2133,17 +2142,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "179"
+                        "$id": "181"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "180",
+                      "$id": "182",
                       "$values": [
                         {
-                          "$id": "181",
+                          "$id": "183",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -2153,7 +2162,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "182",
+                            "$id": "184",
                             "BorderColor": "#FF808080",
                             "BorderTop": 2,
                             "BorderBottom": 2,
@@ -2164,7 +2173,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "183"
+                              "$id": "185"
                             }
                           },
                           "Height": 82.0,
@@ -2187,11 +2196,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "184"
+                            "$id": "186"
                           }
                         },
                         {
-                          "$id": "185",
+                          "$id": "187",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2220,7 +2229,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "186",
+                            "$id": "188",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2231,7 +2240,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "187"
+                              "$id": "189"
                             }
                           },
                           "Height": 27.0,
@@ -2254,11 +2263,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "188"
+                            "$id": "190"
                           }
                         },
                         {
-                          "$id": "189",
+                          "$id": "191",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2287,7 +2296,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "190",
+                            "$id": "192",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2298,7 +2307,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "191"
+                              "$id": "193"
                             }
                           },
                           "Height": 55.0,
@@ -2321,12 +2330,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "192",
+                            "$id": "194",
                             "Text": {
-                              "$id": "193",
+                              "$id": "195",
                               "FormatString": "mm\\.ss\\.fff",
                               "Formula": {
-                                "$id": "194",
+                                "$id": "196",
                                 "Expression": "[CurrentLapTime]"
                               },
                               "Mode": 2,
@@ -2355,11 +2364,11 @@
                     "Name": "Lap Time",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "195"
+                      "$id": "197"
                     }
                   },
                   {
-                    "$id": "196",
+                    "$id": "198",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -2370,7 +2379,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "197",
+                      "$id": "199",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -2381,17 +2390,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "198"
+                        "$id": "200"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "199",
+                      "$id": "201",
                       "$values": [
                         {
-                          "$id": "200",
+                          "$id": "202",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -2401,7 +2410,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "201",
+                            "$id": "203",
                             "BorderColor": "#FF808080",
                             "BorderTop": 2,
                             "BorderBottom": 4,
@@ -2412,7 +2421,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "202"
+                              "$id": "204"
                             }
                           },
                           "Height": 82.0,
@@ -2435,11 +2444,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "203"
+                            "$id": "205"
                           }
                         },
                         {
-                          "$id": "204",
+                          "$id": "206",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2468,7 +2477,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "205",
+                            "$id": "207",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2479,7 +2488,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "206"
+                              "$id": "208"
                             }
                           },
                           "Height": 27.0,
@@ -2502,11 +2511,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "207"
+                            "$id": "209"
                           }
                         },
                         {
-                          "$id": "208",
+                          "$id": "210",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2535,7 +2544,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "209",
+                            "$id": "211",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2546,7 +2555,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "210"
+                              "$id": "212"
                             }
                           },
                           "Height": 55.0,
@@ -2569,12 +2578,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "211",
+                            "$id": "213",
                             "Text": {
-                              "$id": "212",
+                              "$id": "214",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "213",
+                                "$id": "215",
                                 "Expression": "[OilTemperature]"
                               },
                               "Mode": 2,
@@ -2603,11 +2612,11 @@
                     "Name": "Oil Temp",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "214"
+                      "$id": "216"
                     }
                   },
                   {
-                    "$id": "215",
+                    "$id": "217",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -2618,7 +2627,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "216",
+                      "$id": "218",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -2629,17 +2638,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "217"
+                        "$id": "219"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "218",
+                      "$id": "220",
                       "$values": [
                         {
-                          "$id": "219",
+                          "$id": "221",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -2649,7 +2658,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "220",
+                            "$id": "222",
                             "BorderColor": "#FF808080",
                             "BorderTop": 2,
                             "BorderBottom": 4,
@@ -2660,7 +2669,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "221"
+                              "$id": "223"
                             }
                           },
                           "Height": 82.0,
@@ -2683,11 +2692,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "222"
+                            "$id": "224"
                           }
                         },
                         {
-                          "$id": "223",
+                          "$id": "225",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2716,7 +2725,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "224",
+                            "$id": "226",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2727,7 +2736,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "225"
+                              "$id": "227"
                             }
                           },
                           "Height": 27.0,
@@ -2750,11 +2759,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "226"
+                            "$id": "228"
                           }
                         },
                         {
-                          "$id": "227",
+                          "$id": "229",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2783,7 +2792,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "228",
+                            "$id": "230",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2794,7 +2803,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "229"
+                              "$id": "231"
                             }
                           },
                           "Height": 55.0,
@@ -2817,12 +2826,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "230",
+                            "$id": "232",
                             "Text": {
-                              "$id": "231",
+                              "$id": "233",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "232",
+                                "$id": "234",
                                 "Expression": "[WaterTemperature]"
                               },
                               "Mode": 2,
@@ -2851,11 +2860,11 @@
                     "Name": "Water Temp",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "233"
+                      "$id": "235"
                     }
                   },
                   {
-                    "$id": "234",
+                    "$id": "236",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -2866,7 +2875,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "235",
+                      "$id": "237",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -2877,17 +2886,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "236"
+                        "$id": "238"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "237",
+                      "$id": "239",
                       "$values": [
                         {
-                          "$id": "238",
+                          "$id": "240",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -2897,7 +2906,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "239",
+                            "$id": "241",
                             "BorderColor": "#FF808080",
                             "BorderTop": 2,
                             "BorderBottom": 4,
@@ -2908,7 +2917,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "240"
+                              "$id": "242"
                             }
                           },
                           "Height": 82.0,
@@ -2931,11 +2940,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "241"
+                            "$id": "243"
                           }
                         },
                         {
-                          "$id": "242",
+                          "$id": "244",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -2964,7 +2973,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "243",
+                            "$id": "245",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -2975,7 +2984,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "244"
+                              "$id": "246"
                             }
                           },
                           "Height": 27.0,
@@ -2998,11 +3007,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "245"
+                            "$id": "247"
                           }
                         },
                         {
-                          "$id": "246",
+                          "$id": "248",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3031,7 +3040,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "247",
+                            "$id": "249",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3042,7 +3051,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "248"
+                              "$id": "250"
                             }
                           },
                           "Height": 55.0,
@@ -3065,12 +3074,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "249",
+                            "$id": "251",
                             "Text": {
-                              "$id": "250",
+                              "$id": "252",
                               "FormatString": "mm\\:ss\\.fff",
                               "Formula": {
-                                "$id": "251",
+                                "$id": "253",
                                 "Expression": "[LastLapTime]"
                               },
                               "Mode": 2,
@@ -3099,7 +3108,7 @@
                     "Name": "Last Lap",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "252"
+                      "$id": "254"
                     }
                   }
                 ]
@@ -3119,16 +3128,16 @@
               "BorderRight": 0,
               "BorderTop": 0,
               "Id": "0af2ceb6-99e7-4ef8-90f8-cb29f7b21314",
-              "IsSelected": false,
+              "IsSelected": true,
               "Name": "Page1",
               "Sid": 0,
               "Bindings": {
-                "$id": "253",
+                "$id": "255",
                 "Visible": {
-                  "$id": "254",
+                  "$id": "256",
                   "Formula": {
-                    "$id": "255",
-                    "Expression": "[PitLimiterOn] = 0"
+                    "$id": "257",
+                    "Expression": "[GameRawData.Telemetry.Voltage] > 0 && [PitLimiterOn] = 0"
                   },
                   "Mode": 2,
                   "TargetPropertyName": "Visible"
@@ -3136,7 +3145,7 @@
               }
             },
             {
-              "$id": "256",
+              "$id": "258",
               "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
@@ -3147,7 +3156,7 @@
               "BlurRadius": 0.0,
               "Rotation": 0.0,
               "BorderStyle": {
-                "$id": "257",
+                "$id": "259",
                 "BorderColor": "#FFFFFFFF",
                 "BorderTop": 0,
                 "BorderBottom": 0,
@@ -3158,17 +3167,17 @@
                 "RadiusBottomLeft": 0,
                 "RadiusBottomRight": 0,
                 "Bindings": {
-                  "$id": "258"
+                  "$id": "260"
                 }
               },
               "RenderingSkip": 0,
               "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
-                "$id": "259",
+                "$id": "261",
                 "$values": [
                   {
-                    "$id": "260",
+                    "$id": "262",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                     "IsTextItem": true,
                     "ShadowDepth": 0,
@@ -3197,7 +3206,7 @@
                     "BlurRadius": 0.0,
                     "EnableBlur": false,
                     "BorderStyle": {
-                      "$id": "261",
+                      "$id": "263",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -3208,7 +3217,7 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "262"
+                        "$id": "264"
                       }
                     },
                     "Height": 41.0,
@@ -3231,11 +3240,11 @@
                     "RenderingSkip": 0,
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "263"
+                      "$id": "265"
                     }
                   },
                   {
-                    "$id": "264",
+                    "$id": "266",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -3246,7 +3255,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "265",
+                      "$id": "267",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -3257,17 +3266,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "266"
+                        "$id": "268"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "267",
+                      "$id": "269",
                       "$values": [
                         {
-                          "$id": "268",
+                          "$id": "270",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -3277,7 +3286,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "269",
+                            "$id": "271",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 4,
@@ -3288,7 +3297,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "270"
+                              "$id": "272"
                             }
                           },
                           "Height": 123.0,
@@ -3311,11 +3320,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "271"
+                            "$id": "273"
                           }
                         },
                         {
-                          "$id": "272",
+                          "$id": "274",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3344,7 +3353,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "273",
+                            "$id": "275",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3355,7 +3364,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "274"
+                              "$id": "276"
                             }
                           },
                           "Height": 123.0,
@@ -3378,12 +3387,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "275",
+                            "$id": "277",
                             "Text": {
-                              "$id": "276",
+                              "$id": "278",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "277",
+                                "$id": "279",
                                 "Expression": "[SpeedLocal]"
                               },
                               "Mode": 2,
@@ -3412,11 +3421,11 @@
                     "Name": "PitSpeed",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "278"
+                      "$id": "280"
                     }
                   },
                   {
-                    "$id": "279",
+                    "$id": "281",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -3427,7 +3436,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "280",
+                      "$id": "282",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -3438,17 +3447,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "281"
+                        "$id": "283"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "282",
+                      "$id": "284",
                       "$values": [
                         {
-                          "$id": "283",
+                          "$id": "285",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -3458,7 +3467,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "284",
+                            "$id": "286",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 2,
@@ -3469,7 +3478,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "285"
+                              "$id": "287"
                             }
                           },
                           "Height": 123.0,
@@ -3492,11 +3501,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "286"
+                            "$id": "288"
                           }
                         },
                         {
-                          "$id": "287",
+                          "$id": "289",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3525,7 +3534,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "288",
+                            "$id": "290",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3536,7 +3545,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "289"
+                              "$id": "291"
                             }
                           },
                           "Height": 96.0,
@@ -3559,12 +3568,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "290",
+                            "$id": "292",
                             "Text": {
-                              "$id": "291",
+                              "$id": "293",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "292",
+                                "$id": "294",
                                 "Expression": "[Throttle]"
                               },
                               "Mode": 2,
@@ -3573,7 +3582,7 @@
                           }
                         },
                         {
-                          "$id": "293",
+                          "$id": "295",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3602,7 +3611,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "294",
+                            "$id": "296",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3613,7 +3622,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "295"
+                              "$id": "297"
                             }
                           },
                           "Height": 27.0,
@@ -3636,7 +3645,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "296"
+                            "$id": "298"
                           }
                         }
                       ]
@@ -3660,11 +3669,11 @@
                     "Name": "ThrottlePct",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "297"
+                      "$id": "299"
                     }
                   },
                   {
-                    "$id": "298",
+                    "$id": "300",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -3675,7 +3684,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "299",
+                      "$id": "301",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -3686,17 +3695,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "300"
+                        "$id": "302"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "301",
+                      "$id": "303",
                       "$values": [
                         {
-                          "$id": "302",
+                          "$id": "304",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -3706,7 +3715,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "303",
+                            "$id": "305",
                             "BorderColor": "#FF808080",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3717,7 +3726,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "304"
+                              "$id": "306"
                             }
                           },
                           "Height": 123.0,
@@ -3740,11 +3749,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "305"
+                            "$id": "307"
                           }
                         },
                         {
-                          "$id": "306",
+                          "$id": "308",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3773,7 +3782,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "307",
+                            "$id": "309",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3784,7 +3793,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "308"
+                              "$id": "310"
                             }
                           },
                           "Height": 123.0,
@@ -3807,12 +3816,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "309",
+                            "$id": "311",
                             "Text": {
-                              "$id": "310",
+                              "$id": "312",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "311",
+                                "$id": "313",
                                 "Expression": "[Clutch]"
                               },
                               "Mode": 2,
@@ -3821,7 +3830,7 @@
                           }
                         },
                         {
-                          "$id": "312",
+                          "$id": "314",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -3850,7 +3859,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "313",
+                            "$id": "315",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3861,7 +3870,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "314"
+                              "$id": "316"
                             }
                           },
                           "Height": 32.0,
@@ -3884,7 +3893,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "315"
+                            "$id": "317"
                           }
                         }
                       ]
@@ -3908,11 +3917,11 @@
                     "Name": "ClutchPct",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "316"
+                      "$id": "318"
                     }
                   },
                   {
-                    "$id": "317",
+                    "$id": "319",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -3923,7 +3932,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "318",
+                      "$id": "320",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -3934,17 +3943,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "319"
+                        "$id": "321"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "320",
+                      "$id": "322",
                       "$values": [
                         {
-                          "$id": "321",
+                          "$id": "323",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -3954,7 +3963,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "322",
+                            "$id": "324",
                             "BorderColor": "#FFFF0000",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -3965,7 +3974,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "323"
+                              "$id": "325"
                             }
                           },
                           "Height": 123.0,
@@ -3988,11 +3997,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "324"
+                            "$id": "326"
                           }
                         },
                         {
-                          "$id": "325",
+                          "$id": "327",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4021,7 +4030,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "326",
+                            "$id": "328",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4032,7 +4041,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "327"
+                              "$id": "329"
                             }
                           },
                           "Height": 123.0,
@@ -4055,12 +4064,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "328",
+                            "$id": "330",
                             "Text": {
-                              "$id": "329",
+                              "$id": "331",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "330",
+                                "$id": "332",
                                 "Expression": "[BrakeBias]"
                               },
                               "Mode": 2,
@@ -4069,7 +4078,7 @@
                           }
                         },
                         {
-                          "$id": "331",
+                          "$id": "333",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4098,7 +4107,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "332",
+                            "$id": "334",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4109,7 +4118,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "333"
+                              "$id": "335"
                             }
                           },
                           "Height": 32.0,
@@ -4132,7 +4141,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "334"
+                            "$id": "336"
                           }
                         }
                       ]
@@ -4156,11 +4165,11 @@
                     "Name": "BrakeBias",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "335"
+                      "$id": "337"
                     }
                   },
                   {
-                    "$id": "336",
+                    "$id": "338",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -4171,7 +4180,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "337",
+                      "$id": "339",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -4182,17 +4191,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "338"
+                        "$id": "340"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "339",
+                      "$id": "341",
                       "$values": [
                         {
-                          "$id": "340",
+                          "$id": "342",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -4202,7 +4211,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "341",
+                            "$id": "343",
                             "BorderColor": "#FF808080",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4213,7 +4222,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "342"
+                              "$id": "344"
                             }
                           },
                           "Height": 123.0,
@@ -4236,11 +4245,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "343"
+                            "$id": "345"
                           }
                         },
                         {
-                          "$id": "344",
+                          "$id": "346",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4269,7 +4278,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "345",
+                            "$id": "347",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4280,7 +4289,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "346"
+                              "$id": "348"
                             }
                           },
                           "Height": 50.0,
@@ -4303,12 +4312,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "347",
+                            "$id": "349",
                             "Text": {
-                              "$id": "348",
+                              "$id": "350",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "349",
+                                "$id": "351",
                                 "Expression": "[TyrePressureFrontLeft]"
                               },
                               "Mode": 2,
@@ -4317,7 +4326,7 @@
                           }
                         },
                         {
-                          "$id": "350",
+                          "$id": "352",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4346,7 +4355,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "351",
+                            "$id": "353",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4357,7 +4366,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "352"
+                              "$id": "354"
                             }
                           },
                           "Height": 50.0,
@@ -4380,12 +4389,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "353",
+                            "$id": "355",
                             "Text": {
-                              "$id": "354",
+                              "$id": "356",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "355",
+                                "$id": "357",
                                 "Expression": "[TyrePressureFrontRight]"
                               },
                               "Mode": 2,
@@ -4394,7 +4403,7 @@
                           }
                         },
                         {
-                          "$id": "356",
+                          "$id": "358",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4423,7 +4432,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "357",
+                            "$id": "359",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4434,7 +4443,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "358"
+                              "$id": "360"
                             }
                           },
                           "Height": 50.0,
@@ -4457,12 +4466,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "359",
+                            "$id": "361",
                             "Text": {
-                              "$id": "360",
+                              "$id": "362",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "361",
+                                "$id": "363",
                                 "Expression": "[TyrePressureRearLeft]"
                               },
                               "Mode": 2,
@@ -4471,7 +4480,7 @@
                           }
                         },
                         {
-                          "$id": "362",
+                          "$id": "364",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4500,7 +4509,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "363",
+                            "$id": "365",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4511,7 +4520,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "364"
+                              "$id": "366"
                             }
                           },
                           "Height": 50.0,
@@ -4534,12 +4543,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "365",
+                            "$id": "367",
                             "Text": {
-                              "$id": "366",
+                              "$id": "368",
                               "FormatString": "0.0",
                               "Formula": {
-                                "$id": "367",
+                                "$id": "369",
                                 "Expression": "[TyrePressureRearRight]"
                               },
                               "Mode": 2,
@@ -4548,7 +4557,7 @@
                           }
                         },
                         {
-                          "$id": "368",
+                          "$id": "370",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4577,7 +4586,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "369",
+                            "$id": "371",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4588,7 +4597,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "370"
+                              "$id": "372"
                             }
                           },
                           "Height": 23.0,
@@ -4611,7 +4620,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "371"
+                            "$id": "373"
                           }
                         }
                       ]
@@ -4635,11 +4644,11 @@
                     "Name": "TirePressure",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "372"
+                      "$id": "374"
                     }
                   },
                   {
-                    "$id": "373",
+                    "$id": "375",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -4650,7 +4659,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "374",
+                      "$id": "376",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -4661,17 +4670,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "375"
+                        "$id": "377"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "376",
+                      "$id": "378",
                       "$values": [
                         {
-                          "$id": "377",
+                          "$id": "379",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -4681,7 +4690,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "378",
+                            "$id": "380",
                             "BorderColor": "#FF4169E1",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4692,7 +4701,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "379"
+                              "$id": "381"
                             }
                           },
                           "Height": 123.0,
@@ -4715,11 +4724,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "380"
+                            "$id": "382"
                           }
                         },
                         {
-                          "$id": "381",
+                          "$id": "383",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4748,7 +4757,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "382",
+                            "$id": "384",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4759,7 +4768,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "383"
+                              "$id": "385"
                             }
                           },
                           "Height": 123.0,
@@ -4782,12 +4791,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "384",
+                            "$id": "386",
                             "Text": {
-                              "$id": "385",
+                              "$id": "387",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "386",
+                                "$id": "388",
                                 "Expression": "[WaterTemperature]"
                               },
                               "Mode": 2,
@@ -4796,7 +4805,7 @@
                           }
                         },
                         {
-                          "$id": "387",
+                          "$id": "389",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4825,7 +4834,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "388",
+                            "$id": "390",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -4836,7 +4845,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "389"
+                              "$id": "391"
                             }
                           },
                           "Height": 32.0,
@@ -4859,7 +4868,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "390"
+                            "$id": "392"
                           }
                         }
                       ]
@@ -4883,11 +4892,11 @@
                     "Name": "WaterTemp",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "391"
+                      "$id": "393"
                     }
                   },
                   {
-                    "$id": "392",
+                    "$id": "394",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -4898,7 +4907,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "393",
+                      "$id": "395",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -4909,17 +4918,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "394"
+                        "$id": "396"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "395",
+                      "$id": "397",
                       "$values": [
                         {
-                          "$id": "396",
+                          "$id": "398",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -4929,7 +4938,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "397",
+                            "$id": "399",
                             "BorderColor": "#FF808080",
                             "BorderTop": 4,
                             "BorderBottom": 4,
@@ -4940,7 +4949,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "398"
+                              "$id": "400"
                             }
                           },
                           "Height": 123.0,
@@ -4963,11 +4972,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "399"
+                            "$id": "401"
                           }
                         },
                         {
-                          "$id": "400",
+                          "$id": "402",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -4996,7 +5005,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "401",
+                            "$id": "403",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5007,7 +5016,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "402"
+                              "$id": "404"
                             }
                           },
                           "Height": 123.0,
@@ -5030,7 +5039,7 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "403"
+                            "$id": "405"
                           }
                         }
                       ]
@@ -5054,7 +5063,7 @@
                     "Name": "PitLimiterOn",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "404"
+                      "$id": "406"
                     }
                   }
                 ]
@@ -5078,11 +5087,11 @@
               "Name": "PitLimiter",
               "Sid": 0,
               "Bindings": {
-                "$id": "405",
+                "$id": "407",
                 "Visible": {
-                  "$id": "406",
+                  "$id": "408",
                   "Formula": {
-                    "$id": "407",
+                    "$id": "409",
                     "Expression": "[PitLimiterOn] = 1"
                   },
                   "Mode": 2,
@@ -5091,7 +5100,7 @@
               }
             },
             {
-              "$id": "408",
+              "$id": "410",
               "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
@@ -5102,7 +5111,7 @@
               "BlurRadius": 0.0,
               "Rotation": 0.0,
               "BorderStyle": {
-                "$id": "409",
+                "$id": "411",
                 "BorderColor": "#FFFFFFFF",
                 "BorderTop": 0,
                 "BorderBottom": 0,
@@ -5113,17 +5122,17 @@
                 "RadiusBottomLeft": 0,
                 "RadiusBottomRight": 0,
                 "Bindings": {
-                  "$id": "410"
+                  "$id": "412"
                 }
               },
               "RenderingSkip": 0,
               "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
-                "$id": "411",
+                "$id": "413",
                 "$values": [
                   {
-                    "$id": "412",
+                    "$id": "414",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -5134,7 +5143,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "413",
+                      "$id": "415",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -5145,17 +5154,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "414"
+                        "$id": "416"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "415",
+                      "$id": "417",
                       "$values": [
                         {
-                          "$id": "416",
+                          "$id": "418",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -5165,7 +5174,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "417",
+                            "$id": "419",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 8,
                             "BorderBottom": 8,
@@ -5176,7 +5185,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "418"
+                              "$id": "420"
                             }
                           },
                           "Height": 80.0,
@@ -5199,11 +5208,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "419"
+                            "$id": "421"
                           }
                         },
                         {
-                          "$id": "420",
+                          "$id": "422",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5232,7 +5241,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "421",
+                            "$id": "423",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5243,7 +5252,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "422"
+                              "$id": "424"
                             }
                           },
                           "Height": 27.0,
@@ -5266,11 +5275,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "423"
+                            "$id": "425"
                           }
                         },
                         {
-                          "$id": "424",
+                          "$id": "426",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5299,7 +5308,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "425",
+                            "$id": "427",
                             "BorderColor": "#00FFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5310,7 +5319,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "426"
+                              "$id": "428"
                             }
                           },
                           "Height": 80.0,
@@ -5333,11 +5342,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "427",
+                            "$id": "429",
                             "Text": {
-                              "$id": "428",
+                              "$id": "430",
                               "Formula": {
-                                "$id": "429",
+                                "$id": "431",
                                 "Expression": "[GameRawData.Telemetry.dcThrottleShape]"
                               },
                               "Mode": 2,
@@ -5366,11 +5375,11 @@
                     "Name": "TPS",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "430"
+                      "$id": "432"
                     }
                   },
                   {
-                    "$id": "431",
+                    "$id": "433",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -5381,7 +5390,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "432",
+                      "$id": "434",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -5392,17 +5401,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "433"
+                        "$id": "435"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "434",
+                      "$id": "436",
                       "$values": [
                         {
-                          "$id": "435",
+                          "$id": "437",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -5412,7 +5421,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "436",
+                            "$id": "438",
                             "BorderColor": "#FF4169E1",
                             "BorderTop": 8,
                             "BorderBottom": 8,
@@ -5423,7 +5432,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "437"
+                              "$id": "439"
                             }
                           },
                           "Height": 80.0,
@@ -5446,11 +5455,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "438"
+                            "$id": "440"
                           }
                         },
                         {
-                          "$id": "439",
+                          "$id": "441",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5479,7 +5488,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "440",
+                            "$id": "442",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5490,7 +5499,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "441"
+                              "$id": "443"
                             }
                           },
                           "Height": 27.0,
@@ -5513,11 +5522,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "442"
+                            "$id": "444"
                           }
                         },
                         {
-                          "$id": "443",
+                          "$id": "445",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5546,7 +5555,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "444",
+                            "$id": "446",
                             "BorderColor": "#00FFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5557,7 +5566,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "445"
+                              "$id": "447"
                             }
                           },
                           "Height": 80.0,
@@ -5580,12 +5589,12 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "446",
+                            "$id": "448",
                             "Text": {
-                              "$id": "447",
+                              "$id": "449",
                               "FormatString": "0",
                               "Formula": {
-                                "$id": "448",
+                                "$id": "450",
                                 "Expression": "isnull([GameRawData.SessionData.CarSetup.Drivetrain.Engine.EngineMapSetting],1)"
                               },
                               "Mode": 2,
@@ -5614,11 +5623,11 @@
                     "Name": "ENG",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "449"
+                      "$id": "451"
                     }
                   },
                   {
-                    "$id": "450",
+                    "$id": "452",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -5629,7 +5638,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "451",
+                      "$id": "453",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -5640,17 +5649,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "452"
+                        "$id": "454"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "453",
+                      "$id": "455",
                       "$values": [
                         {
-                          "$id": "454",
+                          "$id": "456",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -5660,7 +5669,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "455",
+                            "$id": "457",
                             "BorderColor": "#FF008000",
                             "BorderTop": 8,
                             "BorderBottom": 8,
@@ -5671,7 +5680,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "456"
+                              "$id": "458"
                             }
                           },
                           "Height": 80.0,
@@ -5694,11 +5703,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "457"
+                            "$id": "459"
                           }
                         },
                         {
-                          "$id": "458",
+                          "$id": "460",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5727,7 +5736,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "459",
+                            "$id": "461",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5738,7 +5747,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "460"
+                              "$id": "462"
                             }
                           },
                           "Height": 27.0,
@@ -5761,11 +5770,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "461"
+                            "$id": "463"
                           }
                         },
                         {
-                          "$id": "462",
+                          "$id": "464",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5794,7 +5803,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "463",
+                            "$id": "465",
                             "BorderColor": "#00FFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5805,7 +5814,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "464"
+                              "$id": "466"
                             }
                           },
                           "Height": 80.0,
@@ -5828,11 +5837,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "465",
+                            "$id": "467",
                             "Text": {
-                              "$id": "466",
+                              "$id": "468",
                               "Formula": {
-                                "$id": "467",
+                                "$id": "469",
                                 "Expression": "[GameRawData.Telemetry.dcTractionControl]"
                               },
                               "Mode": 2,
@@ -5861,11 +5870,11 @@
                     "Name": "GAIN",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "468"
+                      "$id": "470"
                     }
                   },
                   {
-                    "$id": "469",
+                    "$id": "471",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -5876,7 +5885,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "470",
+                      "$id": "472",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -5887,17 +5896,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "471"
+                        "$id": "473"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "472",
+                      "$id": "474",
                       "$values": [
                         {
-                          "$id": "473",
+                          "$id": "475",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -5907,7 +5916,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "474",
+                            "$id": "476",
                             "BorderColor": "#FFFFFF00",
                             "BorderTop": 8,
                             "BorderBottom": 8,
@@ -5918,7 +5927,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "475"
+                              "$id": "477"
                             }
                           },
                           "Height": 80.0,
@@ -5941,11 +5950,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "476"
+                            "$id": "478"
                           }
                         },
                         {
-                          "$id": "477",
+                          "$id": "479",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -5974,7 +5983,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "478",
+                            "$id": "480",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -5985,7 +5994,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "479"
+                              "$id": "481"
                             }
                           },
                           "Height": 27.0,
@@ -6008,11 +6017,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "480"
+                            "$id": "482"
                           }
                         },
                         {
-                          "$id": "481",
+                          "$id": "483",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -6041,7 +6050,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "482",
+                            "$id": "484",
                             "BorderColor": "#00FFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -6052,7 +6061,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "483"
+                              "$id": "485"
                             }
                           },
                           "Height": 80.0,
@@ -6075,11 +6084,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "484",
+                            "$id": "486",
                             "Text": {
-                              "$id": "485",
+                              "$id": "487",
                               "Formula": {
-                                "$id": "486",
+                                "$id": "488",
                                 "Expression": "[GameRawData.Telemetry.dpPowerSteering]"
                               },
                               "Mode": 2,
@@ -6108,11 +6117,11 @@
                     "Name": "EPS",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "487"
+                      "$id": "489"
                     }
                   },
                   {
-                    "$id": "488",
+                    "$id": "490",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -6123,7 +6132,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "489",
+                      "$id": "491",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -6134,17 +6143,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "490"
+                        "$id": "492"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "491",
+                      "$id": "493",
                       "$values": [
                         {
-                          "$id": "492",
+                          "$id": "494",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -6154,7 +6163,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "493",
+                            "$id": "495",
                             "BorderColor": "#FFFF0000",
                             "BorderTop": 8,
                             "BorderBottom": 8,
@@ -6165,7 +6174,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "494"
+                              "$id": "496"
                             }
                           },
                           "Height": 80.0,
@@ -6188,11 +6197,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "495"
+                            "$id": "497"
                           }
                         },
                         {
-                          "$id": "496",
+                          "$id": "498",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -6221,7 +6230,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "497",
+                            "$id": "499",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -6232,7 +6241,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "498"
+                              "$id": "500"
                             }
                           },
                           "Height": 27.0,
@@ -6255,11 +6264,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "499"
+                            "$id": "501"
                           }
                         },
                         {
-                          "$id": "500",
+                          "$id": "502",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -6288,7 +6297,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "501",
+                            "$id": "503",
                             "BorderColor": "#00FFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -6299,7 +6308,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "502"
+                              "$id": "504"
                             }
                           },
                           "Height": 80.0,
@@ -6322,11 +6331,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "503",
+                            "$id": "505",
                             "Text": {
-                              "$id": "504",
+                              "$id": "506",
                               "Formula": {
-                                "$id": "505",
+                                "$id": "507",
                                 "Expression": "[GameRawData.Telemetry.dcTractionControl2]"
                               },
                               "Mode": 2,
@@ -6355,7 +6364,7 @@
                     "Name": "SLIP",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "506"
+                      "$id": "508"
                     }
                   }
                 ]
@@ -6379,11 +6388,11 @@
               "Name": "Footer",
               "Sid": 0,
               "Bindings": {
-                "$id": "507",
+                "$id": "509",
                 "Visible": {
-                  "$id": "508",
+                  "$id": "510",
                   "Formula": {
-                    "$id": "509",
+                    "$id": "511",
                     "Expression": "[PitLimiterOn] = 0"
                   },
                   "Mode": 2,
@@ -6392,7 +6401,7 @@
               }
             },
             {
-              "$id": "510",
+              "$id": "512",
               "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
@@ -6403,7 +6412,7 @@
               "BlurRadius": 0.0,
               "Rotation": 0.0,
               "BorderStyle": {
-                "$id": "511",
+                "$id": "513",
                 "BorderColor": "#FFFFFFFF",
                 "BorderTop": 0,
                 "BorderBottom": 0,
@@ -6414,17 +6423,17 @@
                 "RadiusBottomLeft": 0,
                 "RadiusBottomRight": 0,
                 "Bindings": {
-                  "$id": "512"
+                  "$id": "514"
                 }
               },
               "RenderingSkip": 0,
               "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
-                "$id": "513",
+                "$id": "515",
                 "$values": [
                   {
-                    "$id": "514",
+                    "$id": "516",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
                     "Repetitions": 0.0,
                     "RepeatLeftOffset": 0.0,
@@ -6435,7 +6444,7 @@
                     "BlurRadius": 0.0,
                     "Rotation": 0.0,
                     "BorderStyle": {
-                      "$id": "515",
+                      "$id": "517",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -6446,17 +6455,17 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "516"
+                        "$id": "518"
                       }
                     },
                     "RenderingSkip": 0,
                     "ShowSelection": true,
                     "CanResize": false,
                     "Childrens": {
-                      "$id": "517",
+                      "$id": "519",
                       "$values": [
                         {
-                          "$id": "518",
+                          "$id": "520",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                           "IsRectangleItem": true,
                           "Rotation": 0.0,
@@ -6466,7 +6475,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "519",
+                            "$id": "521",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 2,
                             "BorderBottom": 2,
@@ -6477,7 +6486,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "520"
+                              "$id": "522"
                             }
                           },
                           "Height": 70.0,
@@ -6500,11 +6509,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "521",
+                            "$id": "523",
                             "BackgroundColor": {
-                              "$id": "522",
+                              "$id": "524",
                               "Formula": {
-                                "$id": "523",
+                                "$id": "525",
                                 "Expression": "[PitLimiterOn]"
                               },
                               "StartColor": "#C8FFFF00",
@@ -6520,7 +6529,7 @@
                           }
                         },
                         {
-                          "$id": "524",
+                          "$id": "526",
                           "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                           "IsTextItem": true,
                           "ShadowDepth": 0,
@@ -6549,7 +6558,7 @@
                           "BlurRadius": 0.0,
                           "EnableBlur": false,
                           "BorderStyle": {
-                            "$id": "525",
+                            "$id": "527",
                             "BorderColor": "#FFFFFFFF",
                             "BorderTop": 0,
                             "BorderBottom": 0,
@@ -6560,7 +6569,7 @@
                             "RadiusBottomLeft": 0,
                             "RadiusBottomRight": 0,
                             "Bindings": {
-                              "$id": "526"
+                              "$id": "528"
                             }
                           },
                           "Height": 70.0,
@@ -6583,11 +6592,11 @@
                           "RenderingSkip": 0,
                           "Sid": 0,
                           "Bindings": {
-                            "$id": "527",
+                            "$id": "529",
                             "Text": {
-                              "$id": "528",
+                              "$id": "530",
                               "Formula": {
-                                "$id": "529",
+                                "$id": "531",
                                 "Interpreter": 1,
                                 "Expression": "return 'PIT SPEED ' + parseInt(parseFloat($prop('GameRawData.SessionData.WeekendInfo.TrackPitSpeedLimit').substring(0,5)) * .62) + \r\n' MPH'"
                               },
@@ -6617,7 +6626,7 @@
                     "Name": "Pit_speed",
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "530"
+                      "$id": "532"
                     }
                   }
                 ]
@@ -6641,11 +6650,11 @@
               "Name": "Warnings",
               "Sid": 0,
               "Bindings": {
-                "$id": "531"
+                "$id": "533"
               }
             },
             {
-              "$id": "532",
+              "$id": "534",
               "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
               "Repetitions": 0.0,
               "RepeatLeftOffset": 0.0,
@@ -6656,7 +6665,7 @@
               "BlurRadius": 0.0,
               "Rotation": 0.0,
               "BorderStyle": {
-                "$id": "533",
+                "$id": "535",
                 "BorderColor": "#FFFFFFFF",
                 "BorderTop": 0,
                 "BorderBottom": 0,
@@ -6667,17 +6676,17 @@
                 "RadiusBottomLeft": 0,
                 "RadiusBottomRight": 0,
                 "Bindings": {
-                  "$id": "534"
+                  "$id": "536"
                 }
               },
               "RenderingSkip": 0,
               "ShowSelection": false,
               "CanResize": false,
               "Childrens": {
-                "$id": "535",
+                "$id": "537",
                 "$values": [
                   {
-                    "$id": "536",
+                    "$id": "538",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
                     "IsRectangleItem": true,
                     "Rotation": 0.0,
@@ -6687,7 +6696,7 @@
                     "BlurRadius": 0.0,
                     "EnableBlur": false,
                     "BorderStyle": {
-                      "$id": "537",
+                      "$id": "539",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -6698,7 +6707,7 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "538"
+                        "$id": "540"
                       }
                     },
                     "Height": 480.0,
@@ -6721,11 +6730,11 @@
                     "RenderingSkip": 0,
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "539"
+                      "$id": "541"
                     }
                   },
                   {
-                    "$id": "540",
+                    "$id": "542",
                     "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
                     "IsTextItem": true,
                     "ShadowDepth": 0,
@@ -6754,7 +6763,7 @@
                     "BlurRadius": 0.0,
                     "EnableBlur": false,
                     "BorderStyle": {
-                      "$id": "541",
+                      "$id": "543",
                       "BorderColor": "#FFFFFFFF",
                       "BorderTop": 0,
                       "BorderBottom": 0,
@@ -6765,7 +6774,7 @@
                       "RadiusBottomLeft": 0,
                       "RadiusBottomRight": 0,
                       "Bindings": {
-                        "$id": "542"
+                        "$id": "544"
                       }
                     },
                     "Height": 100.0,
@@ -6788,7 +6797,7 @@
                     "RenderingSkip": 0,
                     "Sid": 0,
                     "Bindings": {
-                      "$id": "543"
+                      "$id": "545"
                     }
                   }
                 ]
@@ -6812,11 +6821,11 @@
               "Name": "Engine Off",
               "Sid": 0,
               "Bindings": {
-                "$id": "544",
+                "$id": "546",
                 "Visible": {
-                  "$id": "545",
+                  "$id": "547",
                   "Formula": {
-                    "$id": "546",
+                    "$id": "548",
                     "Expression": "[GameRawData.Telemetry.Voltage] = 0"
                   },
                   "Mode": 2,
@@ -6830,31 +6839,31 @@
         "Name": "GameDash",
         "Sid": 0,
         "Bindings": {
-          "$id": "547"
+          "$id": "549"
         }
       },
       {
-        "$id": "548",
+        "$id": "550",
         "RenderingSkip": 0,
         "IsFreezed": false,
         "InGameScreen": false,
         "IdleScreen": true,
         "PitScreen": false,
         "ScreenScript": {
-          "$id": "549",
+          "$id": "551",
           "Interpreter": 1
         },
         "BackgroundColor": "#FF000000",
         "IsSelected": false,
         "Items": {
-          "$id": "550",
+          "$id": "552",
           "$values": []
         },
         "Id": "535aae14-e194-4d7e-a203-5377c429f495",
         "Name": "Idle",
         "Sid": 0,
         "Bindings": {
-          "$id": "551"
+          "$id": "553"
         }
       }
     ]
@@ -6867,10 +6876,10 @@
     "$ref": "3"
   },
   "Images": {
-    "$id": "552",
+    "$id": "554",
     "$values": [
       {
-        "$id": "553",
+        "$id": "555",
         "Name": "Cosworth",
         "Extension": ".png",
         "Optimized": true,
@@ -6879,17 +6888,17 @@
     ]
   },
   "Metadata": {
-    "$id": "554",
+    "$id": "556",
     "Title": "Dallara P217 iRacing",
     "ScreenCount": 2.0,
     "InGameScreensIndexs": {
-      "$id": "555",
+      "$id": "557",
       "$values": [
         0
       ]
     },
     "IdleScreensIndexs": {
-      "$id": "556",
+      "$id": "558",
       "$values": [
         1
       ]
@@ -6903,7 +6912,7 @@
     "MetadataVersion": 2.0,
     "EnableOnDashboardMessaging": true,
     "PitScreensIndexs": {
-      "$id": "557",
+      "$id": "559",
       "$values": []
     }
   },
